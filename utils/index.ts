@@ -1,9 +1,19 @@
 import { RecordType } from "@/types"
 import { format } from "date-fns"
-import { ReadonlyURLSearchParams, useSearchParams } from "next/navigation"
+import { ReadonlyURLSearchParams } from "next/navigation"
 import numeral from "numeral"
 
 export const isBrowser = typeof window !== "undefined"
+
+export const getBaseURL = () => {
+  if (isBrowser) {
+    return ""
+  }
+  if (process.env.NODE_ENV !== "development") {
+    return `https://${process.env.VERCEL_URL}`
+  }
+  return "http://localhost:3000"
+}
 
 // const dateIsValid = (date: string) => {
 //   return !Number.isNaN(new Date(date).getTime())
