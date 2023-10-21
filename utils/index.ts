@@ -5,6 +5,16 @@ import numeral from "numeral"
 
 export const isBrowser = typeof window !== "undefined"
 
+export const getBaseURL = () => {
+  if (isBrowser) {
+    return ""
+  }
+  if (process.env.NODE_ENV !== "development") {
+    return `https://${process.env.VERCEL_URL}`
+  }
+  return "http://localhost:3000"
+}
+
 // const dateIsValid = (date: string) => {
 //   return !Number.isNaN(new Date(date).getTime())
 // }
