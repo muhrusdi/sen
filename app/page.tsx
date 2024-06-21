@@ -7,9 +7,11 @@ import { cookies } from "next/headers"
 import Link from "next/link"
 import Filter from "./filter"
 
-const Home: NextPage = () => {
+const Home: NextPage = ({ searchParams }) => {
   const sort_by = cookies().get("sort_by")
   const page = cookies().get("page")
+
+  console.log("-dd-d", searchParams)
 
   return (
     <div>
@@ -17,10 +19,10 @@ const Home: NextPage = () => {
       <Filter sort_by={sort_by?.value} page={page?.value} />
       <div>
         <Await
-          tags={[sort_by?.value as string]}
+          tags={[searchParams?.sort_by as string]}
           sleep={3000}
           data={getData<{ results: Movie[] }>("/discover/movie", {
-            query: { sort_by: sort_by?.value || "" },
+            query: { sort_by: searchParams?.sort_by || "" },
           })}
         >
           {movies => (

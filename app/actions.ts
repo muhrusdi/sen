@@ -2,6 +2,7 @@
 
 import { revalidatePath } from "next/cache"
 import { cookies } from "next/headers"
+import { RedirectType, redirect } from "next/navigation"
 
 export const actions = async (formData: FormData) => {
   cookies().set("sort_by", formData.get("sort_by") as string, { maxAge: 0 })
@@ -14,4 +15,5 @@ export const filterAction = async (formData: FormData) => {
   cookies().set("sort_by", formData.get("sort_by") as string, { maxAge: 1 })
   cookies().set("page", formData.get("page") as string, { maxAge: 1 })
   revalidatePath("/")
+  redirect("/", RedirectType.push)
 }

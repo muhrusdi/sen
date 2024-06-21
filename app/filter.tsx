@@ -3,15 +3,20 @@ import { useContext } from "react"
 import { filterAction } from "./actions"
 import { StoreContext } from "./providers"
 import { revalidatePath } from "next/cache"
-import { useRouter } from "next/navigation"
+import { usePathname, useRouter, useSearchParams } from "next/navigation"
 
 const AsyncFilter = ({ sort_by, page }) => {
   const { startTransition } = useContext(StoreContext)
-  const router = useRouter()
+  const { push, prefetch } = useRouter()
+  const pathname = usePathname()
+  const searchParams = useSearchParams()
 
   const handleAction = async (formData: FormData) => {
     startTransition(() => {
-      filterAction(formData)
+      const params = new URLSearchParams(searchParams.toString())
+      params.set("sort_by", formData.get("sort_by") as string)
+      push(pathname + "?" + params.toString())
+      // filterAction(formData)
     })
   }
 
