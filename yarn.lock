@@ -12,35 +12,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@conform-to/dom@npm:1.2.2":
-  version: 1.2.2
-  resolution: "@conform-to/dom@npm:1.2.2"
-  checksum: 10c0/87912486e53c06a27e961353436726fe5ab8246265bc5c4bee8ab4143b2e66244caeb47fe1d1eb4ca6ade8333ddcbd16378d255272f5ea2a464a708d846a4cbf
-  languageName: node
-  linkType: hard
-
-"@conform-to/react@npm:^1.2.2":
-  version: 1.2.2
-  resolution: "@conform-to/react@npm:1.2.2"
-  dependencies:
-    "@conform-to/dom": "npm:1.2.2"
-  peerDependencies:
-    react: ">=18"
-  checksum: 10c0/da277eb4ef888ee44d342e45c4ac5243a77c5427003b35b444b6c0b534b1950749ef1333bbd756349aa3bbf3eea8d19b5596d500b93198b15fc93b1e797ed0c8
-  languageName: node
-  linkType: hard
-
-"@conform-to/zod@npm:^1.2.2":
-  version: 1.2.2
-  resolution: "@conform-to/zod@npm:1.2.2"
-  dependencies:
-    "@conform-to/dom": "npm:1.2.2"
-  peerDependencies:
-    zod: ^3.21.0
-  checksum: 10c0/113594da03271bcf2814183b5fed9e84563cbd2cd64f99b73a4d2156eee8600e47d951809dac7776a0db28fc086f5e923e53d510ea8302952dba1d80c2e9d852
-  languageName: node
-  linkType: hard
-
 "@drizzle-team/brocli@npm:^0.10.1":
   version: 0.10.1
   resolution: "@drizzle-team/brocli@npm:0.10.1"
@@ -1159,21 +1130,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/query-core@npm:5.59.13":
-  version: 5.59.13
-  resolution: "@tanstack/query-core@npm:5.59.13"
-  checksum: 10c0/57b43a9c1599b99055195fa83db80ddc7e00996244e9b73de5afa6bb8b0b489ee344ca5bcd660ccb9a6e4d2c01ef5dab42acd2e30ffa2b96d0335b3facb84707
+"@tanstack/query-core@npm:5.59.16":
+  version: 5.59.16
+  resolution: "@tanstack/query-core@npm:5.59.16"
+  checksum: 10c0/487a1ac0df5e02ca4ea5bf3b9ee0010ac7fe0856a36fa7bd10947598d3f0ba356c91aa21b123729b26f2116f05b8b69cd8fb17681c24cdd586de17b6fe021521
   languageName: node
   linkType: hard
 
-"@tanstack/react-query@npm:^5.59.15":
-  version: 5.59.15
-  resolution: "@tanstack/react-query@npm:5.59.15"
+"@tanstack/react-query@npm:^5.59.16":
+  version: 5.59.16
+  resolution: "@tanstack/react-query@npm:5.59.16"
   dependencies:
-    "@tanstack/query-core": "npm:5.59.13"
+    "@tanstack/query-core": "npm:5.59.16"
   peerDependencies:
     react: ^18 || ^19
-  checksum: 10c0/7b697eee85ed40efb82b6609434e2580405a3c32844365a8bb876b354e3068b21e0fa4c8ed0f5a06af45dc68373f39873b046f104975a31204d9288e03bba0f5
+  checksum: 10c0/82acf170d2d169ad18081e4dc52bdcec3b92bd1b134bb704ab6949937a59fd4d7d4ddb1172dd7fdbd1667a2d2e0ffa118e68bde5f53972649b8e55bd0e87244c
   languageName: node
   linkType: hard
 
@@ -1207,12 +1178,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:22.7.8":
-  version: 22.7.8
-  resolution: "@types/node@npm:22.7.8"
+"@types/node@npm:22.7.9":
+  version: 22.7.9
+  resolution: "@types/node@npm:22.7.9"
   dependencies:
     undici-types: "npm:~6.19.2"
-  checksum: 10c0/3d3b3a2ec5a57ca4fd37b34dce415620993ca5f87cea2c728ffe73aa31446dbfe19c53171c478447bd7d78011ef4845a46ab2f0dc38e699cc75b3d100a60c690
+  checksum: 10c0/2d1917702b9d9ede8e4d8151cd8b1af8bc147d543486474ffbe0742e38764ea73105939e6a767addf7a4c39e842e16eae762bff90617d7b7f9ee3fbbb2d23bfa
   languageName: node
   linkType: hard
 
@@ -4980,9 +4951,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.80.3":
-  version: 1.80.3
-  resolution: "sass@npm:1.80.3"
+"sass@npm:^1.80.4":
+  version: 1.80.4
+  resolution: "sass@npm:1.80.4"
   dependencies:
     "@parcel/watcher": "npm:^2.4.1"
     chokidar: "npm:^4.0.0"
@@ -4990,7 +4961,7 @@ __metadata:
     source-map-js: "npm:>=0.6.2 <2.0.0"
   bin:
     sass: sass.js
-  checksum: 10c0/fa08043fc36b854717b6eaf6247ee11341d0aff5e17a645965071866bd677930c9c9467d82ed5a4a666d7897a82be8a61427cd81b808e6b9e2d3b32cf278bebd
+  checksum: 10c0/58ca0f2d10720cde6621ee62f4bdbb537ea2ac572c565d5f02309f8271a5e1e880ad8c163b933e52b22b3dc0550973fb5a6033a500248e6a0d89dd050c1743cf
   languageName: node
   linkType: hard
 
@@ -5023,13 +4994,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "sen@workspace:."
   dependencies:
-    "@conform-to/react": "npm:^1.2.2"
-    "@conform-to/zod": "npm:^1.2.2"
     "@hookform/resolvers": "npm:^3.9.0"
     "@libsql/client": "npm:^0.14.0"
     "@next/env": "npm:15.0.1"
-    "@tanstack/react-query": "npm:^5.59.15"
-    "@types/node": "npm:22.7.8"
+    "@tanstack/react-query": "npm:^5.59.16"
+    "@types/node": "npm:22.7.9"
     "@types/numeral": "npm:^2.0.5"
     "@types/react": "npm:types-react@19.0.0-rc.1"
     "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1"
@@ -5051,7 +5020,7 @@ __metadata:
     react-dom: "npm:19.0.0-rc-69d4b800-20241021"
     react-hook-form: "npm:^7.53.1"
     react-icons: "npm:^5.3.0"
-    sass: "npm:^1.80.3"
+    sass: "npm:^1.80.4"
     tailwind-merge: "npm:^2.5.4"
     tailwindcss: "npm:^3.4.14"
     typescript: "npm:^5.6.3"
