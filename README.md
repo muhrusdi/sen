@@ -8,9 +8,7 @@
 - ✅ Tailwindcss
 - ✅ Typescript
 - ✅ Framer Motion
-- ✅ Storybookjs
 - ✅ React Testing Library
-- ✅ React Icons
 
 ## Installation
 
@@ -40,22 +38,23 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 senjs-boilerplate
 ├── components
 │   ├── button
-│   │   └── index.ts
-├── containers
-│   ├── layout
+│       ├── button.tsx
 │   │   └── index.ts
 ├── app
 │   ├── api
-│   │   └── hello.ts
-│   ├── page.ts
-├── public
-├── styles
+│   │   └── ping
+│   │       └── route.ts
 │   ├── globals.css
+│   ├── layout.tsx
+│   ├── providers.tsx
+│   ├── page.tsx
+├── public
 ├── .gitignore
 ├── next-env.d.ts
-├── next.config.js
+├── next.config.ts
 ├── postcss.config.js
-├── tailwind.config.js
+├── env.config.ts
+├── tailwind.config.ts
 ├── tsconfig.json
 ├── LICENSE
 └── package.json
