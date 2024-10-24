@@ -1,2 +1,2 @@
-export { FormInput as Input } from "./input"
-export { Input as default } from "./input.server"
+export { FormInput as Input } from "./input.client"
+export { Input as default } from "./input"
