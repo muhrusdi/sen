@@ -6,7 +6,7 @@ import { LoadingContext } from "@/app/providers"
 import Form from "next/form"
 import { useFormStatus } from "react-dom"
 import { z } from "zod"
-import { ActionState, schema } from "./zod"
+import { ActionState, schema } from "./types"
 
 const FormPage = () => {
   const [data, createUserAction, isPending] = useActionState<

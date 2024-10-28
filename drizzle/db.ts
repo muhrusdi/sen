@@ -11,9 +11,14 @@ const client = createClient({
 
 export const db = drizzle(client, { schema })
 
-export const getUsers = () =>
+type Params = {
+  limit?: number
+  offset?: number
+}
+export const getUsers = (params?: Params) =>
   db.query.user.findMany({
-    limit: 12,
+    limit: params?.limit || 12,
+    offset: params?.offset || 0,
     orderBy: (users, { desc }) => [desc(users.createdAt)],
   })
 

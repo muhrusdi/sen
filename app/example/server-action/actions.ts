@@ -1,7 +1,7 @@
 "use server"
 
 import { insertUser } from "@/drizzle/db"
-import { schema, RoleSchema } from "./zod"
+import { schema, RoleSchema } from "./types"
 import { z } from "zod"
 
 export const createUser = async (prevData: any, formData: FormData) => {
