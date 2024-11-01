@@ -54,3 +54,9 @@ export const generateParams = (params?: Array<string | number>) => {
 
   return paramsString
 }
+
+export const getRandomNumber = async () => {
+  return fetch("http://www.randomnumberapi.com/api/v1.0/uuid").then(d =>
+    d.json(),
+  )
+}

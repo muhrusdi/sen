@@ -1,2 +1,2 @@
-export { FormSelect as Select } from "./select"
-export { Select as default } from "./select.server"
+export { Select } from "./select"
+export { FormSelect as default } from "./select.client"
