@@ -8,6 +8,7 @@ export const user = sqliteTable("user", {
   email: text("email"),
   password: text("password"),
   role: text("role").$type<"admin" | "customer">(),
+  liked: integer({ mode: "boolean" }).default(false),
   createdAt: text("createdAt")
     .notNull()
     .default(sql`CURRENT_TIMESTAMP`),
