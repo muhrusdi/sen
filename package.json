@@ -23,6 +23,7 @@
     "drizzle-kit": "^0.26.2",
     "drizzle-orm": "^0.35.3",
     "framer-motion": "^11.11.9",
+    "lucide-react": "^0.454.0",
     "next": "15.0.2",
     "numeral": "^2.0.6",
     "postcss": "^8.4.47",
