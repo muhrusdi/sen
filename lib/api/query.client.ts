@@ -26,14 +26,14 @@ export const getData = async <TData>(
   const { get } = await cookies()
   const accessToken = get("accessToken")?.value
 
-  const _headers: AxiosHeaders = new AxiosHeaders()
+  const headers: AxiosHeaders = new AxiosHeaders()
 
   if (accessToken) {
-    _headers.set("Authorization", `Bearer ${accessToken}`)
+    headers.set("Authorization", `Bearer ${accessToken}`)
   }
 
   const res = axios(APIs[path] + paramsString + queriesString, {
-    headers: _headers,
+    headers,
   }).then(d => d.data)
 
   return res as TData
