@@ -4,3 +4,5 @@ export type SearchParamsType<T = null> = Promise<
       [key: string]: string | string[] | undefined
     }
 >
+
+type TestType = {}
