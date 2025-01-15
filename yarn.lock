@@ -1169,6 +1169,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/js-cookie@npm:^3":
+  version: 3.0.6
+  resolution: "@types/js-cookie@npm:3.0.6"
+  checksum: 10c0/173afaf5ea9d86c22395b9d2a00b6adb0006dcfef165d6dcb0395cdc32f5a5dcf9c3c60f97194119963a15849b8f85121e1ae730b03e40bc0c29b84396ba22f9
+  languageName: node
+  linkType: hard
+
 "@types/json-schema@npm:^7.0.15":
   version: 7.0.15
   resolution: "@types/json-schema@npm:7.0.15"
@@ -3684,6 +3691,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"js-cookie@npm:^3.0.5":
+  version: 3.0.5
+  resolution: "js-cookie@npm:3.0.5"
+  checksum: 10c0/04a0e560407b4489daac3a63e231d35f4e86f78bff9d792011391b49c59f721b513411cd75714c418049c8dc9750b20fcddad1ca5a2ca616c3aca4874cce5b3a
+  languageName: node
+  linkType: hard
+
 "js-tokens@npm:^3.0.0 || ^4.0.0":
   version: 4.0.0
   resolution: "js-tokens@npm:4.0.0"
@@ -4995,6 +5009,7 @@ __metadata:
     "@libsql/client": "npm:^0.14.0"
     "@next/env": "npm:15.1.3"
     "@tanstack/react-query": "npm:^5.62.16"
+    "@types/js-cookie": "npm:^3"
     "@types/node": "npm:22.10.5"
     "@types/numeral": "npm:^2.0.5"
     "@types/react": "npm:19.0.3"
@@ -5007,6 +5022,7 @@ __metadata:
     drizzle-orm: "npm:^0.38.3"
     eslint: "npm:9.17.0"
     eslint-config-next: "npm:15.1.3"
+    js-cookie: "npm:^3.0.5"
     lucide-react: "npm:^0.469.0"
     motion: "npm:^11.16.0"
     next: "npm:15.1.3"
