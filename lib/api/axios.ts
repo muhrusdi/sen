@@ -2,12 +2,17 @@ import axios, { AxiosHeaders, AxiosRequestHeaders } from "axios"
 
 axios.defaults.baseURL = process.env.HOST_URL
 
+// const isServer = typeof window === "undefined"
+
 axios.interceptors.request.use(
-  config => {
-    if (config?.headers?.get("x-request-id") === "basic-location") {
-    } else {
-      config.baseURL = "/"
-    }
+  async config => {
+    // if (isServer) {
+    //   const { cookies } = await import("next/headers")
+    //   const cookie = await cookies()
+    //   const token = cookie.get("accessToken")
+    // } else {
+    //   // client
+    // }
 
     if (config?.headers?.get("x-request-id") === "auth") {
       config.auth = {
