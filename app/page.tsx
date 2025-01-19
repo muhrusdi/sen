@@ -1,4 +1,4 @@
-import { SearchParamsType } from "@/lib/definitions"
+import { SearchParamsType } from "@/lib/types"
 
 type Props = {
   searchParams: SearchParamsType<{ sort_by: string; page: string }>
