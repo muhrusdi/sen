@@ -14,7 +14,7 @@ const ServerAction = () => {
                 {data =>
                   data.map(item => (
                     <li key={item.id}>
-                      <div className="rounded bg-gray-500 p-3 text-white">
+                      <div className="rounded-sm bg-gray-500 p-3 text-white">
                         <h4>{item.name}</h4>
                         <p>{item.email}</p>
                       </div>

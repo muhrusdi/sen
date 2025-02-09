@@ -17,7 +17,7 @@ const Item = ({ item }: { item: Props }) => {
   }
 
   return (
-    <div className="rounded bg-gray-500 p-3 text-white">
+    <div className="rounded-sm bg-gray-500 p-3 text-white">
       <span>{item.id}</span>
       <h4>{item.name}</h4>
       <p>{item.email}</p>
