@@ -1758,6 +1758,7 @@ __metadata:
   languageName: node
   linkType: hard
 
+<<<<<<< HEAD
 "autoprefixer@npm:^10.4.21":
   version: 10.4.21
   resolution: "autoprefixer@npm:10.4.21"
@@ -1776,6 +1777,8 @@ __metadata:
   languageName: node
   linkType: hard
 
+=======
+>>>>>>> e036158 (chore: remove autoprefixer and update tailwindcss version in package.json and yarn.lock)
 "available-typed-arrays@npm:^1.0.7":
   version: 1.0.7
   resolution: "available-typed-arrays@npm:1.0.7"
@@ -1845,6 +1848,7 @@ __metadata:
   languageName: node
   linkType: hard
 
+<<<<<<< HEAD
 "browserslist@npm:^4.24.4":
   version: 4.24.4
   resolution: "browserslist@npm:4.24.4"
@@ -1859,6 +1863,8 @@ __metadata:
   languageName: node
   linkType: hard
 
+=======
+>>>>>>> e036158 (chore: remove autoprefixer and update tailwindcss version in package.json and yarn.lock)
 "buffer-from@npm:^1.0.0":
   version: 1.1.2
   resolution: "buffer-from@npm:1.1.2"
@@ -1934,7 +1940,11 @@ __metadata:
   languageName: node
   linkType: hard
 
+<<<<<<< HEAD
 "caniuse-lite@npm:^1.0.30001579, caniuse-lite@npm:^1.0.30001688":
+=======
+"caniuse-lite@npm:^1.0.30001579":
+>>>>>>> e036158 (chore: remove autoprefixer and update tailwindcss version in package.json and yarn.lock)
   version: 1.0.30001690
   resolution: "caniuse-lite@npm:1.0.30001690"
   checksum: 10c0/646bd469032afa90400a84dec30a2b00a6eda62c03ead358117e3f884cda8aacec02ec058a6dbee5eaf9714f83e483b9b0eb4fb42febb8076569f5ca40f1d347
@@ -2323,13 +2333,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"electron-to-chromium@npm:^1.5.73":
-  version: 1.5.78
-  resolution: "electron-to-chromium@npm:1.5.78"
-  checksum: 10c0/6100dc52027ae53c26cebd13a9ea28790755496eb7fb3809dd6485999f65692090b961c15503e387abb04233a033d9064b8e6fd326c3c0609806acca016ec3a6
-  languageName: node
-  linkType: hard
-
 "emoji-regex@npm:^8.0.0":
   version: 8.0.0
   resolution: "emoji-regex@npm:8.0.0"
@@ -2697,13 +2700,6 @@ __metadata:
   bin:
     esbuild: bin/esbuild
   checksum: 10c0/473b1d92842f50a303cf948a11ebd5f69581cd254d599dd9d62f9989858e0533f64e83b723b5e1398a5b488c0f5fd088795b4235f65ecaf4f007d4b79f04bc88
-  languageName: node
-  linkType: hard
-
-"escalade@npm:^3.2.0":
-  version: 3.2.0
-  resolution: "escalade@npm:3.2.0"
-  checksum: 10c0/ced4dd3a78e15897ed3be74e635110bbf3b08877b0a41be50dcb325ee0e0b5f65fc2d50e9845194d7c4633f327e2e1c6cce00a71b617c5673df0374201d67f65
   languageName: node
   linkType: hard
 
@@ -3161,6 +3157,7 @@ __metadata:
   languageName: node
   linkType: hard
 
+<<<<<<< HEAD
 "fraction.js@npm:^4.3.7":
   version: 4.3.7
   resolution: "fraction.js@npm:4.3.7"
@@ -3171,6 +3168,11 @@ __metadata:
 "framer-motion@npm:^12.7.4":
   version: 12.7.4
   resolution: "framer-motion@npm:12.7.4"
+=======
+"framer-motion@npm:^12.4.1":
+  version: 12.4.1
+  resolution: "framer-motion@npm:12.4.1"
+>>>>>>> e036158 (chore: remove autoprefixer and update tailwindcss version in package.json and yarn.lock)
   dependencies:
     motion-dom: "npm:^12.7.4"
     motion-utils: "npm:^12.7.2"
@@ -4461,13 +4463,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-releases@npm:^2.0.19":
-  version: 2.0.19
-  resolution: "node-releases@npm:2.0.19"
-  checksum: 10c0/52a0dbd25ccf545892670d1551690fe0facb6a471e15f2cfa1b20142a5b255b3aa254af5f59d6ecb69c2bec7390bc643c43aa63b13bf5e64b6075952e716b1aa
-  languageName: node
-  linkType: hard
-
 "nopt@npm:^8.0.0":
   version: 8.0.0
   resolution: "nopt@npm:8.0.0"
@@ -4476,13 +4471,6 @@ __metadata:
   bin:
     nopt: bin/nopt.js
   checksum: 10c0/19cb986f79abaca2d0f0b560021da7b32ee6fcc3de48f3eaeb0c324d36755c17754f886a754c091f01f740c17caf7d6aea8237b7fbaf39f476ae5e30a249f18f
-  languageName: node
-  linkType: hard
-
-"normalize-range@npm:^0.1.2":
-  version: 0.1.2
-  resolution: "normalize-range@npm:0.1.2"
-  checksum: 10c0/bf39b73a63e0a42ad1a48c2bd1bda5a07ede64a7e2567307a407674e595bcff0fa0d57e8e5f1e7fa5e91000797c7615e13613227aaaa4d6d6e87f5bd5cc95de6
   languageName: node
   linkType: hard
 
@@ -4671,7 +4659,11 @@ __metadata:
   languageName: node
   linkType: hard
 
+<<<<<<< HEAD
 "picocolors@npm:^1.0.0, picocolors@npm:^1.1.0, picocolors@npm:^1.1.1":
+=======
+"picocolors@npm:^1.0.0, picocolors@npm:^1.1.1":
+>>>>>>> e036158 (chore: remove autoprefixer and update tailwindcss version in package.json and yarn.lock)
   version: 1.1.1
   resolution: "picocolors@npm:1.1.1"
   checksum: 10c0/e2e3e8170ab9d7c7421969adaa7e1b31434f789afb9b3f115f6b96d91945041ac3ceb02e9ec6fe6510ff036bcc0bf91e69a1772edc0b707e12b19c0f2d6bcf58
@@ -4689,13 +4681,6 @@ __metadata:
   version: 1.0.0
   resolution: "possible-typed-array-names@npm:1.0.0"
   checksum: 10c0/d9aa22d31f4f7680e20269db76791b41c3a32c01a373e25f8a4813b4d45f7456bfc2b6d68f752dc4aab0e0bb0721cb3d76fb678c9101cb7a16316664bc2c73fd
-  languageName: node
-  linkType: hard
-
-"postcss-value-parser@npm:^4.2.0":
-  version: 4.2.0
-  resolution: "postcss-value-parser@npm:4.2.0"
-  checksum: 10c0/f4142a4f56565f77c1831168e04e3effd9ffcc5aebaf0f538eee4b2d465adfd4b85a44257bb48418202a63806a7da7fe9f56c330aebb3cac898e46b4cbf49161
   languageName: node
   linkType: hard
 
@@ -5137,10 +5122,16 @@ __metadata:
     "@types/js-cookie": "npm:^3.0.6"
     "@types/node": "npm:22.14.1"
     "@types/numeral": "npm:^2.0.5"
+<<<<<<< HEAD
     "@types/react": "npm:19.1.2"
     "@types/react-dom": "npm:19.1.2"
     autoprefixer: "npm:^10.4.21"
     axios: "npm:^1.8.4"
+=======
+    "@types/react": "npm:19.0.8"
+    "@types/react-dom": "npm:19.0.3"
+    axios: "npm:^1.7.9"
+>>>>>>> e036158 (chore: remove autoprefixer and update tailwindcss version in package.json and yarn.lock)
     clsx: "npm:^2.1.1"
     date-fns: "npm:^4.1.0"
     drizzle-kit: "npm:^0.30.6"
@@ -5155,6 +5146,7 @@ __metadata:
     postcss: "npm:^8.5.3"
     prettier: "npm:^3.5.3"
     prettier-plugin-tailwindcss: "npm:^0.6.11"
+<<<<<<< HEAD
     react: "npm:19.1.0"
     react-dom: "npm:19.1.0"
     react-hook-form: "npm:^7.55.0"
@@ -5163,6 +5155,16 @@ __metadata:
     tailwindcss: "npm:^4.1.4"
     typescript: "npm:^5.8.3"
     zod: "npm:^3.24.3"
+=======
+    react: "npm:19.0.0"
+    react-dom: "npm:19.0.0"
+    react-hook-form: "npm:^7.54.2"
+    sass: "npm:^1.84.0"
+    tailwind-merge: "npm:^3.0.1"
+    tailwindcss: "npm:^4.0.5"
+    typescript: "npm:^5.7.3"
+    zod: "npm:^3.24.1"
+>>>>>>> e036158 (chore: remove autoprefixer and update tailwindcss version in package.json and yarn.lock)
   languageName: unknown
   linkType: soft
 
@@ -5617,10 +5619,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+<<<<<<< HEAD
 "tailwindcss@npm:4.1.4, tailwindcss@npm:^4.1.4":
   version: 4.1.4
   resolution: "tailwindcss@npm:4.1.4"
   checksum: 10c0/4927653b740861f0279b6b465c87e188652d3c0e311c633b4efe5d72bbb4dce12b9dddc674a386a3d0454ef4dd4951aac6fd7346dcd9b2b2b06952e431c1835d
+=======
+"tailwindcss@npm:4.0.5, tailwindcss@npm:^4.0.5":
+  version: 4.0.5
+  resolution: "tailwindcss@npm:4.0.5"
+  checksum: 10c0/f7cd995e83e07d1ada1b1de57474bcd7cfc09f3e8014cbaec644a794330f6cb244bd819cce9612a5714fe57ecfa7cb7a5386bb1988473e4fb5f550ae619663ff
+>>>>>>> e036158 (chore: remove autoprefixer and update tailwindcss version in package.json and yarn.lock)
   languageName: node
   linkType: hard
 
@@ -5805,20 +5814,6 @@ __metadata:
   dependencies:
     imurmurhash: "npm:^0.1.4"
   checksum: 10c0/d324c5a44887bd7e105ce800fcf7533d43f29c48757ac410afd42975de82cc38ea2035c0483f4de82d186691bf3208ef35c644f73aa2b1b20b8e651be5afd293
-  languageName: node
-  linkType: hard
-
-"update-browserslist-db@npm:^1.1.1":
-  version: 1.1.1
-  resolution: "update-browserslist-db@npm:1.1.1"
-  dependencies:
-    escalade: "npm:^3.2.0"
-    picocolors: "npm:^1.1.0"
-  peerDependencies:
-    browserslist: ">= 4.21.0"
-  bin:
-    update-browserslist-db: cli.js
-  checksum: 10c0/536a2979adda2b4be81b07e311bd2f3ad5e978690987956bc5f514130ad50cac87cd22c710b686d79731e00fbee8ef43efe5fcd72baa241045209195d43dcc80
   languageName: node
   linkType: hard
 
