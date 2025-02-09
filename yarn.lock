@@ -5018,7 +5018,7 @@ __metadata:
     react-hook-form: "npm:^7.54.2"
     sass: "npm:^1.84.0"
     tailwind-merge: "npm:^3.0.1"
-    tailwindcss: "npm:4.0.0"
+    tailwindcss: "npm:4.0.5"
     typescript: "npm:^5.7.3"
     zod: "npm:^3.24.1"
   languageName: unknown
@@ -5462,13 +5462,6 @@ __metadata:
   version: 3.0.1
   resolution: "tailwind-merge@npm:3.0.1"
   checksum: 10c0/973d754687ad82d25cb55bf16958153999d080cd68dd0a6c1c74909bd92d05bcca01c24d9642e9e6ec95b3a207b15cd4b32bca49d586f2e743d311358ecb584b
-  languageName: node
-  linkType: hard
-
-"tailwindcss@npm:4.0.0":
-  version: 4.0.0
-  resolution: "tailwindcss@npm:4.0.0"
-  checksum: 10c0/418b1cb02c46f5064bdd4931d8bb030e5c2a986744226dc282b47ecd4b95d1eb919a6f35a68cac948fbf3224fd976feafd9476e289cb5774062f6a3b2a49606e
   languageName: node
   linkType: hard
 
