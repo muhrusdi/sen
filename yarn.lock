@@ -2323,24 +2323,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:^10.4.21":
-  version: 10.4.21
-  resolution: "autoprefixer@npm:10.4.21"
-  dependencies:
-    browserslist: "npm:^4.24.4"
-    caniuse-lite: "npm:^1.0.30001702"
-    fraction.js: "npm:^4.3.7"
-    normalize-range: "npm:^0.1.2"
-    picocolors: "npm:^1.1.1"
-    postcss-value-parser: "npm:^4.2.0"
-  peerDependencies:
-    postcss: ^8.1.0
-  bin:
-    autoprefixer: bin/autoprefixer
-  checksum: 10c0/de5b71d26d0baff4bbfb3d59f7cf7114a6030c9eeb66167acf49a32c5b61c68e308f1e0f869d92334436a221035d08b51cd1b2f2c4689b8d955149423c16d4d4
-  languageName: node
-  linkType: hard
-
 "available-typed-arrays@npm:^1.0.7":
   version: 1.0.7
   resolution: "available-typed-arrays@npm:1.0.7"
@@ -2419,6 +2401,7 @@ __metadata:
   languageName: node
   linkType: hard
 
+<<<<<<< HEAD
 "browserslist@npm:^4.24.0":
   version: 4.27.0
   resolution: "browserslist@npm:4.27.0"
@@ -2448,6 +2431,8 @@ __metadata:
   languageName: node
   linkType: hard
 
+=======
+>>>>>>> 04d575a (chore: remove unused dependencies from package.json and yarn.lock for cleaner project setup)
 "buffer-from@npm:^1.0.0":
   version: 1.1.2
   resolution: "buffer-from@npm:1.1.2"
@@ -2514,6 +2499,7 @@ __metadata:
   languageName: node
   linkType: hard
 
+<<<<<<< HEAD
 "caniuse-lite@npm:^1.0.30001579, caniuse-lite@npm:^1.0.30001702, caniuse-lite@npm:^1.0.30001718":
   version: 1.0.30001720
   resolution: "caniuse-lite@npm:1.0.30001720"
@@ -2528,6 +2514,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+=======
+"caniuse-lite@npm:^1.0.30001579":
+  version: 1.0.30001690
+  resolution: "caniuse-lite@npm:1.0.30001690"
+  checksum: 10c0/646bd469032afa90400a84dec30a2b00a6eda62c03ead358117e3f884cda8aacec02ec058a6dbee5eaf9714f83e483b9b0eb4fb42febb8076569f5ca40f1d347
+  languageName: node
+  linkType: hard
+
+>>>>>>> 04d575a (chore: remove unused dependencies from package.json and yarn.lock for cleaner project setup)
 "chalk@npm:^4.0.0":
   version: 4.1.2
   resolution: "chalk@npm:4.1.2"
@@ -2932,6 +2927,7 @@ __metadata:
   languageName: node
   linkType: hard
 
+<<<<<<< HEAD
 "electron-to-chromium@npm:^1.5.160":
   version: 1.5.161
   resolution: "electron-to-chromium@npm:1.5.161"
@@ -2946,6 +2942,8 @@ __metadata:
   languageName: node
   linkType: hard
 
+=======
+>>>>>>> 04d575a (chore: remove unused dependencies from package.json and yarn.lock for cleaner project setup)
 "emoji-regex@npm:^8.0.0":
   version: 8.0.0
   resolution: "emoji-regex@npm:8.0.0"
@@ -3306,13 +3304,6 @@ __metadata:
   bin:
     esbuild: bin/esbuild
   checksum: 10c0/473b1d92842f50a303cf948a11ebd5f69581cd254d599dd9d62f9989858e0533f64e83b723b5e1398a5b488c0f5fd088795b4235f65ecaf4f007d4b79f04bc88
-  languageName: node
-  linkType: hard
-
-"escalade@npm:^3.2.0":
-  version: 3.2.0
-  resolution: "escalade@npm:3.2.0"
-  checksum: 10c0/ced4dd3a78e15897ed3be74e635110bbf3b08877b0a41be50dcb325ee0e0b5f65fc2d50e9845194d7c4633f327e2e1c6cce00a71b617c5673df0374201d67f65
   languageName: node
   linkType: hard
 
@@ -3794,6 +3785,7 @@ __metadata:
   languageName: node
   linkType: hard
 
+<<<<<<< HEAD
 "fraction.js@npm:^4.3.7":
   version: 4.3.7
   resolution: "fraction.js@npm:4.3.7"
@@ -3804,6 +3796,11 @@ __metadata:
 "framer-motion@npm:^12.15.0":
   version: 12.15.0
   resolution: "framer-motion@npm:12.15.0"
+=======
+"framer-motion@npm:^12.7.4":
+  version: 12.7.4
+  resolution: "framer-motion@npm:12.7.4"
+>>>>>>> 04d575a (chore: remove unused dependencies from package.json and yarn.lock for cleaner project setup)
   dependencies:
     motion-dom: "npm:^12.15.0"
     motion-utils: "npm:^12.12.1"
@@ -5180,6 +5177,7 @@ __metadata:
   languageName: node
   linkType: hard
 
+<<<<<<< HEAD
 "node-releases@npm:^2.0.19":
   version: 2.0.19
   resolution: "node-releases@npm:2.0.19"
@@ -5194,6 +5192,8 @@ __metadata:
   languageName: node
   linkType: hard
 
+=======
+>>>>>>> 04d575a (chore: remove unused dependencies from package.json and yarn.lock for cleaner project setup)
 "nopt@npm:^8.0.0":
   version: 8.1.0
   resolution: "nopt@npm:8.1.0"
@@ -5202,13 +5202,6 @@ __metadata:
   bin:
     nopt: bin/nopt.js
   checksum: 10c0/62e9ea70c7a3eb91d162d2c706b6606c041e4e7b547cbbb48f8b3695af457dd6479904d7ace600856bf923dd8d1ed0696f06195c8c20f02ac87c1da0e1d315ef
-  languageName: node
-  linkType: hard
-
-"normalize-range@npm:^0.1.2":
-  version: 0.1.2
-  resolution: "normalize-range@npm:0.1.2"
-  checksum: 10c0/bf39b73a63e0a42ad1a48c2bd1bda5a07ede64a7e2567307a407674e595bcff0fa0d57e8e5f1e7fa5e91000797c7615e13613227aaaa4d6d6e87f5bd5cc95de6
   languageName: node
   linkType: hard
 
@@ -5426,13 +5419,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-value-parser@npm:^4.2.0":
-  version: 4.2.0
-  resolution: "postcss-value-parser@npm:4.2.0"
-  checksum: 10c0/f4142a4f56565f77c1831168e04e3effd9ffcc5aebaf0f538eee4b2d465adfd4b85a44257bb48418202a63806a7da7fe9f56c330aebb3cac898e46b4cbf49161
-  languageName: node
-  linkType: hard
-
 "postcss@npm:8.4.31":
   version: 8.4.31
   resolution: "postcss@npm:8.4.31"
@@ -5451,7 +5437,11 @@ __metadata:
     nanoid: "npm:^3.3.11"
     picocolors: "npm:^1.1.1"
     source-map-js: "npm:^1.2.1"
+<<<<<<< HEAD
   checksum: 10c0/0feff648614a834f7cd5396ea6b05b658ca0507e10a4eaad03b56c348f6aec93f42a885fc1b30522630c6a7e49ae53b38a061e3cba526f2d9857afbe095a22bb
+=======
+  checksum: 10c0/c4d90c59c98e8a0c102b77d3f4cac190f883b42d63dc60e2f3ed840f16197c0c8e25a4327d2e9a847b45a985612317dc0534178feeebd0a1cf3eb0eecf75cae4
+>>>>>>> 04d575a (chore: remove unused dependencies from package.json and yarn.lock for cleaner project setup)
   languageName: node
   linkType: hard
 
@@ -5843,11 +5833,17 @@ __metadata:
     "@types/js-cookie": "npm:^3.0.6"
     "@types/node": "npm:22.15.29"
     "@types/numeral": "npm:^2.0.5"
+<<<<<<< HEAD
     "@types/react": "npm:19.2.2"
     "@types/react-dom": "npm:19.2.2"
     autoprefixer: "npm:^10.4.21"
     axios: "npm:^1.9.0"
     class-variance-authority: "npm:^0.7.1"
+=======
+    "@types/react": "npm:19.1.2"
+    "@types/react-dom": "npm:19.1.2"
+    axios: "npm:^1.8.4"
+>>>>>>> 04d575a (chore: remove unused dependencies from package.json and yarn.lock for cleaner project setup)
     clsx: "npm:^2.1.1"
     date-fns: "npm:^4.1.0"
     drizzle-kit: "npm:^0.30.6"
@@ -5859,7 +5855,10 @@ __metadata:
     motion: "npm:^12.15.0"
     next: "npm:16.0.0"
     numeral: "npm:^2.0.6"
+<<<<<<< HEAD
     postcss: "npm:^8.5.4"
+=======
+>>>>>>> 04d575a (chore: remove unused dependencies from package.json and yarn.lock for cleaner project setup)
     prettier: "npm:^3.5.3"
     prettier-plugin-tailwindcss: "npm:^0.6.12"
     react: "npm:19.2.0"
@@ -6541,6 +6540,7 @@ __metadata:
   languageName: node
   linkType: hard
 
+<<<<<<< HEAD
 "unrs-resolver@npm:^1.6.2":
   version: 1.7.8
   resolution: "unrs-resolver@npm:1.7.8"
@@ -6630,6 +6630,8 @@ __metadata:
   languageName: node
   linkType: hard
 
+=======
+>>>>>>> 04d575a (chore: remove unused dependencies from package.json and yarn.lock for cleaner project setup)
 "uri-js@npm:^4.2.2":
   version: 4.4.1
   resolution: "uri-js@npm:4.4.1"
