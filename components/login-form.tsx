@@ -9,11 +9,27 @@ import {
 } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
+import { useForm } from "@tanstack/react-form"
+import { z } from "zod"
+
+const loginSchema = z.object({
+  email: z.string().email().min(3, "You must be 13 to make an account"),
+  password: z.string(),
+})
 
 export function LoginForm({
   className,
   ...props
 }: React.ComponentProps<"div">) {
+  const form = useForm({
+    defaultValues: {
+      email: "",
+      password: "",
+    },
+    validators: {
+      onChange: loginSchema,
+    },
+  })
   return (
     <div className={cn("flex flex-col gap-6", className)} {...props}>
       <Card>

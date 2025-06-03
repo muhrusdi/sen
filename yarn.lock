@@ -1468,10 +1468,40 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tanstack/form-core@npm:1.12.0":
+  version: 1.12.0
+  resolution: "@tanstack/form-core@npm:1.12.0"
+  dependencies:
+    "@tanstack/store": "npm:^0.7.0"
+  checksum: 10c0/a5371ed332c4ba5c8308fe77535d631f9da74ac0b6a69068e6a5bc74061a4abbd02c9d0e770d7736680c042c3ddebdeac01e1e195b824604dec36956117b3f80
+  languageName: node
+  linkType: hard
+
 "@tanstack/query-core@npm:5.79.0":
   version: 5.79.0
   resolution: "@tanstack/query-core@npm:5.79.0"
   checksum: 10c0/614c9f4dc7cb4df9c6804f67a76e2d580af5fa7b25505c2e3c5137bfa40d2005a1a96606c9f8e533754c78722e23708948760104a460fd8bc06df990fea42afb
+  languageName: node
+  linkType: hard
+
+"@tanstack/react-form@npm:^1.12.0":
+  version: 1.12.0
+  resolution: "@tanstack/react-form@npm:1.12.0"
+  dependencies:
+    "@tanstack/form-core": "npm:1.12.0"
+    "@tanstack/react-store": "npm:^0.7.0"
+    decode-formdata: "npm:^0.9.0"
+    devalue: "npm:^5.1.1"
+  peerDependencies:
+    "@tanstack/react-start": ^1.112.0
+    react: ^17.0.0 || ^18.0.0 || ^19.0.0
+    vinxi: ^0.5.0
+  peerDependenciesMeta:
+    "@tanstack/react-start":
+      optional: true
+    vinxi:
+      optional: true
+  checksum: 10c0/a3e5aad781c72e1269c0ac527b83bf3339ce8e3a718dc03182894c59da91f1cb6d4fd57ed30696f94f04288fed782de4c1d7eb45bb2a6d95430194bbbc41bde5
   languageName: node
   linkType: hard
 
@@ -1483,6 +1513,26 @@ __metadata:
   peerDependencies:
     react: ^18 || ^19
   checksum: 10c0/f1d440075b7f8e7738cd4f26a87a089c0efaf282e633cfb9db249ef20068d5f4f14c9d990a304b96df183bffc8839ee579853fef212c213510c425b8092630be
+  languageName: node
+  linkType: hard
+
+"@tanstack/react-store@npm:^0.7.0":
+  version: 0.7.1
+  resolution: "@tanstack/react-store@npm:0.7.1"
+  dependencies:
+    "@tanstack/store": "npm:0.7.1"
+    use-sync-external-store: "npm:^1.5.0"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+  checksum: 10c0/50a64f615f448fd323eb968237c91faae1a3c3cb0ed4b52d3b6a620723dab10437ae99d94bd9e1ff03bd3ad1d4d75cadc5fee042ab6d9b3c47f5972716cac680
+  languageName: node
+  linkType: hard
+
+"@tanstack/store@npm:0.7.1, @tanstack/store@npm:^0.7.0":
+  version: 0.7.1
+  resolution: "@tanstack/store@npm:0.7.1"
+  checksum: 10c0/bc1ebf0e8ced2717ec89b7bfac94da436fd23b0ea485b7805b594bee6c6870d67e1184efd5f140cd8d64d9192ee09adad155abea9a2f5bc1ba96f21645299cd8
   languageName: node
   linkType: hard
 
@@ -2412,6 +2462,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"decode-formdata@npm:^0.9.0":
+  version: 0.9.0
+  resolution: "decode-formdata@npm:0.9.0"
+  checksum: 10c0/8db0a57a14d4d98d4951fbdb7def91c5a5342f75b5274523e7ac56f6d9b39bb4e8f5ec616eb4fc0b501ef717084a86e63e450722a3a865313558977716c074a0
+  languageName: node
+  linkType: hard
+
 "deep-is@npm:^0.1.3":
   version: 0.1.4
   resolution: "deep-is@npm:0.1.4"
@@ -2468,6 +2525,13 @@ __metadata:
   version: 2.0.4
   resolution: "detect-libc@npm:2.0.4"
   checksum: 10c0/c15541f836eba4b1f521e4eecc28eefefdbc10a94d3b8cb4c507689f332cc111babb95deda66f2de050b22122113189986d5190be97d51b5a2b23b938415e67c
+  languageName: node
+  linkType: hard
+
+"devalue@npm:^5.1.1":
+  version: 5.1.1
+  resolution: "devalue@npm:5.1.1"
+  checksum: 10c0/f6717a856fd54216959abd341cb189e47a9b37d72d8419e055ae77567ff4ed0fb683b1ffb6a71067f645adae5991bffabe6468a3e2385937bff49273e71c1f51
   languageName: node
   linkType: hard
 
@@ -5434,6 +5498,7 @@ __metadata:
     "@radix-ui/react-label": "npm:^2.1.7"
     "@radix-ui/react-slot": "npm:^1.2.3"
     "@tailwindcss/postcss": "npm:^4.1.8"
+    "@tanstack/react-form": "npm:^1.12.0"
     "@tanstack/react-query": "npm:^5.79.0"
     "@types/js-cookie": "npm:^3.0.6"
     "@types/node": "npm:22.15.29"
@@ -6215,6 +6280,15 @@ __metadata:
   dependencies:
     punycode: "npm:^2.1.0"
   checksum: 10c0/4ef57b45aa820d7ac6496e9208559986c665e49447cb072744c13b66925a362d96dd5a46c4530a6b8e203e5db5fe849369444440cb22ecfc26c679359e5dfa3c
+  languageName: node
+  linkType: hard
+
+"use-sync-external-store@npm:^1.5.0":
+  version: 1.5.0
+  resolution: "use-sync-external-store@npm:1.5.0"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+  checksum: 10c0/1b8663515c0be34fa653feb724fdcce3984037c78dd4a18f68b2c8be55cc1a1084c578d5b75f158d41b5ddffc2bf5600766d1af3c19c8e329bb20af2ec6f52f4
   languageName: node
   linkType: hard
 
