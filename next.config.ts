@@ -6,6 +6,7 @@ const nextConfig: NextConfig = {
       fullUrl: true,
     },
   },
+  typedRoutes: true,
   async rewrites() {
     return [
       {
