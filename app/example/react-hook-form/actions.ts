@@ -5,8 +5,10 @@ import { schema, RoleSchema } from "./types"
 import { z } from "zod"
 import { revalidatePath } from "next/cache"
 
-export const createUserForm = async (formData: z.infer<typeof schema>) => {
-  const validatedFields = schema.safeParse(formData)
+export const createUserForm = async (prev: any, formData: FormData) => {
+  const validatedFields = schema.safeParse(Object.fromEntries(formData))
+
+  console.log("validatedFields", validatedFields)
 
   if (!validatedFields.success) {
     return {
@@ -16,13 +18,11 @@ export const createUserForm = async (formData: z.infer<typeof schema>) => {
   }
 
   const result = await insertUser({
-    email: formData.email,
-    name: formData.name,
-    password: formData.password,
-    role: formData.role,
+    email: validatedFields.data.email,
+    name: validatedFields.data.name,
+    password: validatedFields.data.password,
+    role: validatedFields.data.role,
   })
-
-  revalidatePath("/example/react-hook-form")
 
   return {
     data: result,

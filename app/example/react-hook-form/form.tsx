@@ -9,21 +9,38 @@ import { z } from "zod"
 import { Select } from "@/components/forms/select"
 
 const FormPage = () => {
-  const [isPending, startTransition] = useTransition()
+  const [data, createUserAction, isPending] = useActionState(
+    createUserForm,
+    null,
+  )
   const methods = useForm<z.infer<typeof schema>>({
     resolver: zodResolver(schema),
   })
 
-  const onCreateUser: SubmitHandler<z.infer<typeof schema>> = async data => {
-    startTransition(async () => {
-      await createUserForm(data)
+  const onSubmit = async (e: any) => {
+    // await methods.trigger()
+    methods.handleSubmit(() => {
+      console.log("onSubmit", methods.formState.isValid)
+    })(e)
+
+    console.log("onCreateUser", methods.formState.isValid)
+    // if (methods.formState.isValid) {
+    startTransition(() => {
+      const formData = new FormData(e.target)
+      createUserAction(formData)
       methods.reset()
     })
+    // }
+    e.currentTarget.requestSubmit()
+  }
+
+  const handleCreateUserAction = async (e: any) => {
+    console.log("onCreateUser===", methods.formState.isValid)
   }
 
   return (
     <FormProvider {...methods}>
-      <form onSubmit={methods.handleSubmit(onCreateUser)}>
+      <form action={handleCreateUserAction} onSubmit={onSubmit}>
         <div>
           <Input name="name" placeholder="Full name" defaultValue="" />
         </div>

@@ -20,7 +20,7 @@ export const FormInput: React.FC<Props> = ({ required, errors, ...props }) => {
           return <Input {...field} />
         }}
         rules={{ required }}
-        control={form.control}
+        {...form}
         {...props}
       />
       {errorMessage ? <div className="text-red-500">{errorMessage}</div> : null}

@@ -14,7 +14,7 @@ const ReactHookForm = () => {
         <div className="w-1/2">
           <div className="rounded-lg bg-gray-100 p-4">
             <ul className="space-y-2">
-              <Await sleep={4000} data={userPromise}>
+              <Await data={getUsers()}>
                 {data =>
                   data.map(item => (
                     <li key={item.id}>

@@ -1,7 +1,7 @@
 {
   "version": "6",
   "dialect": "sqlite",
-  "id": "fb8276f9-2b80-4750-afb6-d7a2587c1826",
+  "id": "15e052b9-2eef-4cda-94dd-435d17883b01",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "tables": {
     "user": {
@@ -42,6 +42,14 @@
           "notNull": false,
           "autoincrement": false
         },
+        "liked": {
+          "name": "liked",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false,
+          "default": false
+        },
         "createdAt": {
           "name": "createdAt",
           "type": "text",
@@ -62,9 +70,11 @@
       "indexes": {},
       "foreignKeys": {},
       "compositePrimaryKeys": {},
-      "uniqueConstraints": {}
+      "uniqueConstraints": {},
+      "checkConstraints": {}
     }
   },
+  "views": {},
   "enums": {},
   "_meta": {
     "schemas": {},

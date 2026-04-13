@@ -17,6 +17,7 @@ const ServerAction = () => {
                       <div className="rounded-sm bg-gray-500 p-3 text-white">
                         <h4>{item.name}</h4>
                         <p>{item.email}</p>
+                        <p>{item.createdAt}</p>
                       </div>
                     </li>
                   ))
